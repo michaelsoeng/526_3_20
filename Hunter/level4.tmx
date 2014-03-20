@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="900" height="30" tilewidth="64" tileheight="64" backgroundcolor="#ffffff">
+ <tileset firstgid="1" name="stone1" tilewidth="64" tileheight="64">
+  <image source="stone1.jpg" width="163" height="174"/>
+ </tileset>
+ <tileset firstgid="5" name="Coins" tilewidth="64" tileheight="64">
+  <image source="Coin.png" width="128" height="128"/>
+  <tile id="2">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="9" name="magnet" tilewidth="49" tileheight="64">
+  <image source="magnet.png" width="49" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="energyPill" tilewidth="28" tileheight="62" spacing="10">
+  <image source="energyPill.png" width="29" height="62"/>
+  <tile id="0">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="11" name="RedCross" tilewidth="64" tileheight="64" spacing="10">
+  <image source="RedCross.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="walls" width="900" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt3YtumzAUANCm6/9/8yZVkZhlG78wl/YcCZE2QIwx5l473T4+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4Db6SBQAAgJ8hzffSnE8OCAAA3OX1b/nsWNPnLN+TDwIAAHA3310FgH6fH8bMgViumvMzl3idu3Mx+R8AtHslr1+lDQEIoyWHrS2vZPt0eXIOLB8E4C7p/Frk/Opdzlr5jrFDJLnYpXV5O4uVWpZjzHUmtz/8Vk+bm3taeXc6+zdm7igHwE8ROZfgfxFjgFwOVNquJGrusiIfPPt9KX/LjaG35oPH19HqFKCklmtFyb+ilONM1OeqMct4XIM5PyGPeo8zElt6r9ba3pX39Uz//cR2NpsL7vbEOoZe5tC+9dZDb32t7vNa9omeaz1lXlDORU3aJna1kahtsfasKH1vq3XbJ7gqdnxqfVxtpL5b6i533LvrvDQfFlkuRlkRD9XmAVvuk9YynZ3L0ez92bNf9OsOxDWTg5bytp7/y/Ap+V8q98zZbeTz7y5zTVqeaOVrlbuHdtb5MSaK4HVY/8Z4pXTOo99RO6ptv/seH5mzuaI9lMpQ6/t6vxtYen+mvmf7iKvywV3X6Hj+O+cE75prbM1VS23irJ7eosynEoc5v+fa2Tf2mMkHn/g3gqX4LWp+9SS5OqzNpY+O//YaGau+Ix+s5Rx3eT9Pjq7KVe/uC1PHuLa2TW+b3tnPtM6h9CjFqitFawstVlzTq/LBK9rbqmt0VVw0k5Ovbn+j+WC0eBGIJY0/ZszmgyMi5147+tyo5z4rva7H8amnyD17d+WsLWXa6c5rt6qPK8VbZ9cu6v3Zey61sZn0mGef2frzrNL8yIxjOxjZp7RfqX5Hrc4HP5P1+/Xs91LkJt9y9Xg2LsrPcoxzrK1n1rV486pnbGuc2xoDl97reebMlGWkzCPlyNVhy9JbhlE76rDlOrfW4dXntdto+0jrYuY4q5doeq9z7f072sgupfv07ZW8rl3r9P3czyuV2l+tDzn2s7VjpJ8x2wZWt6HV9fqZrGeP1focf1rfMvrM6HlGrnAWkwAARDQz5tAT64yMCZT22TkGsfrYtXP6yLyezQdz2/7JLF8nv3/K3x1cNe6Ui+977oUVbWj0GK33cMTc5azMV97Xufqo1fvZcdjvL95JCG0=
+  </data>
+ </layer>
+ <objectgroup name="goldCoin" width="900" height="30">
+  <object name="goldCoinSpawn" x="100" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="200" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="300" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="400" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="450" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="500" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="600" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="700" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="800" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="900" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1000" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1100" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1200" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1300" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1400" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1500" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1600" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1700" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1800" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="1900" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="2000" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="2100" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="2200" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="2300" y="1650" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="11500" y="1700" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="11500" y="1700" width="80" height="64"/>
+  <object name="goldCoinSpawn" x="11500" y="1700" width="80" height="64"/>
+ </objectgroup>
+ <objectgroup name="followEnemy" width="900" height="30" visible="0">
+  <object name="followEnemySpawn" x="104" y="1600" width="60" height="60"/>
+ </objectgroup>
+ <objectgroup name="normalEnemy2" width="900" height="30">
+  <object name="normalEnemy2Spawn" x="400" y="1748" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="500" y="1648" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="600" y="1648" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="700" y="1648" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="800" y="1648" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="900" y="1648" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="1000" y="1648" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="1100" y="1648" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="1200" y="1648" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="11500" y="1348" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="11500" y="1348" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="11500" y="1348" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="11500" y="1348" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="12096" y="1300" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="10024" y="1088" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="12664" y="1128" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="14228" y="1188" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="14992" y="1176" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="15980" y="1344" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="16680" y="1360" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="19020" y="1364" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="19660" y="1348" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="20484" y="1360" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="21380" y="1336" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="22184" y="1336" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="1296" y="1680" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="2164" y="1532" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="2916" y="1416" width="80" height="64"/>
+  <object name="normalEnemy2Spawn" x="3708" y="1260" width="80" height="64"/>
+ </objectgroup>
+ <objectgroup name="normalEnemy" width="900" height="30" visible="0">
+  <object name="normalEnemySpawn" x="1600" y="1832" width="56" height="60"/>
+  <object name="normalEnemySpawn" x="2580" y="1582" width="56" height="60"/>
+  <object name="normalEnemySpawn" x="964" y="1834" width="56" height="60"/>
+  <object name="normalEnemySpawn" x="1968" y="1706" width="56" height="60"/>
+  <object name="normalEnemySpawn" x="2704" y="1838" width="56" height="60"/>
+  <object name="normalEnemySpawn" x="3260" y="1446" width="56" height="60"/>
+  <object name="normalEnemySpawn" x="608" y="1644" width="64" height="52"/>
+  <object name="normalEnemySpawn" x="1132" y="1604" width="56" height="52"/>
+  <object name="normalEnemySpawn" x="2360" y="1516" width="60" height="52"/>
+  <object name="normalEnemySpawn" x="3864" y="1128" width="80" height="60"/>
+  <object name="normalEnemySpawn" x="6440" y="1228" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="8322" y="1356" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="10470" y="1332" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="13958" y="1676" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="17418" y="1616" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="20270" y="1672" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="23086" y="1656" width="68" height="64"/>
+ </objectgroup>
+ <objectgroup name="attackEnemy" width="900" height="30" visible="0">
+  <object name="attackEnemySpawn" x="1700" y="1732" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="2680" y="1482" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="1064" y="1734" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="2068" y="1606" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="2804" y="1738" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="3360" y="1346" width="56" height="60"/>
+ </objectgroup>
+ <objectgroup name="attackEnemy2" width="900" height="30" visible="0">
+  <object name="attackEnemy2Spawn" x="1600" y="1732" width="56" height="60"/>
+  <object name="attackEnemy2Spawn" x="2580" y="1482" width="56" height="60"/>
+  <object name="attackEnemy2Spawn" x="964" y="1734" width="56" height="60"/>
+  <object name="attackEnemy2Spawn" x="1968" y="1606" width="56" height="60"/>
+  <object name="attackEnemy2Spawn" x="2704" y="1738" width="56" height="60"/>
+  <object name="attackEnemy2Spawn" x="3260" y="1346" width="56" height="60"/>
+ </objectgroup>
+ <layer name="magnets" width="900" height="30">
+  <properties>
+   <property name="Collectable" value="True"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7C9+DeMiB0kpFXQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOC3uQ4AAAAAAAAAAAAAUFkgnQAK
+  </data>
+ </layer>
+ <layer name="energy" width="900" height="30">
+  <properties>
+   <property name="Collectable" value="True"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztyqENAAAIAzA0/x+MJyBRtGZZtggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAP3LpPad/DjsAAAAAAAAAAAAA9woaMwBH
+  </data>
+ </layer>
+ <layer name="redcross" width="900" height="30">
+  <properties>
+   <property name="Collectable" value="True"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztyjEKADAIA0D3/v+/riWDo4PcQTAEqwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2PDi5j71/P8DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwXQN4rQBk
+  </data>
+ </layer>
+</map>

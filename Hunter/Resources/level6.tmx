@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1000" height="30" tilewidth="64" tileheight="64" backgroundcolor="#ffffff">
+ <tileset firstgid="1" name="Life" tilewidth="64" tileheight="63">
+  <image source="Life.png" width="64" height="63"/>
+ </tileset>
+ <tileset firstgid="2" name="Coin" tilewidth="64" tileheight="63">
+  <image source="Coin.png" width="64" height="63"/>
+ </tileset>
+ <tileset firstgid="3" name="Energy" tilewidth="64" tileheight="63">
+  <image source="Energy.png" width="64" height="63"/>
+ </tileset>
+ <tileset firstgid="4" name="1" tilewidth="64" tileheight="64">
+  <image source="001.png" width="320" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="4" tilewidth="64" tileheight="64">
+  <image source="004.png" width="320" height="64"/>
+ </tileset>
+ <tileset firstgid="14" name="back_forests_left" tilewidth="3200" tileheight="1895">
+  <image source="back_forests_left.png" width="3200" height="1895"/>
+ </tileset>
+ <tileset firstgid="15" name="back_forests_right" tilewidth="3200" tileheight="1895">
+  <image source="back_forests_right.png" width="3200" height="1895"/>
+ </tileset>
+ <layer name="left" width="1000" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0TENADAMwLAiKH+4vYdgOWwEkTIDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQNn+DuDhR4sfLX60+NHiR4sfLX60+NHiR8sBiDoAjQ==
+  </data>
+ </layer>
+ <layer name="right" width="1000" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0VEJACAUwMDXwP5t/TaAOOQuwWAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHDfeh3AwY8WP1r8aPGjxY8WP1r8aPGj5ZcfG2j6AJc=
+  </data>
+ </layer>
+ <layer name="walls" width="1000" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt3csKgCAQBVAXvf7/izOkVUEPFC3Pgdm4ktld6FoIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQ1hBnqX0JAAAA6Jx8DgAAAOVt+XuMM8WZQ8riZ2cAAAAAAAAAwDXfwQMAAEB98jkAAAAc5e6V66kDAAAAAAAAAAAAAAAAAAC0YX9/rfUeeOv3AwAAAAAAAOB7/LMsH7sEAADgLZkyH7sEAADox93u9ZOzv2bKErvSewcAAAAAAAAAAAAASFY68ALR
+  </data>
+ </layer>
+ <objectgroup name="followEnemy" width="1000" height="30">
+  <object name="followEnemySpawn" x="70" y="1636" width="44" height="24"/>
+ </objectgroup>
+ <objectgroup name="attackEnemy" width="900" height="30" visible="0">
+    <object name="attackEnemySpawn" x="800" y="1732" width="56" height="60"/>
+ </objectgroup>
+ 
+ <objectgroup name="attackEnemy2" width="1000" height="30">
+     <object name="attackEnemy2Spawn" x="800" y="1700" width="56" height="60"/>
+ </objectgroup>
+ 
+ 
+ <objectgroup name="normalEnemy" width="1000" height="30">
+     <object name="normalEnemySpawn" x="1700" y="1732" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="2680" y="1482" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="1064" y="1734" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="2068" y="1606" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="2804" y="1738" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="3360" y="1346" width="56" height="60"/>
+ </objectgroup>
+ 
+ <objectgroup name="normalEnemy2" width="1000" height="30">
+     <object name="normalEnemySpawn" x="700" y="1732" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="800" y="1732" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="900" y="1732" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="1000" y="1732" width="56" height="60"/>
+     <object name="normalEnemySpawn" x="1100" y="1732" width="56" height="60"/>
+ </objectgroup>
+
+</map>

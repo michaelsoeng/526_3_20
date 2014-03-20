@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="900" height="30" tilewidth="64" tileheight="64" backgroundcolor="#ffffff">
+ <tileset firstgid="1" name="stone1" tilewidth="64" tileheight="64">
+  <image source="stone1.jpg" width="163" height="174"/>
+ </tileset>
+ <tileset firstgid="5" name="Coins" tilewidth="64" tileheight="64">
+  <image source="Coin.png" width="128" height="128"/>
+  <tile id="2">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="walls" width="900" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2gtu4yAUAMCk2/ufeVeqIrEIMP/gZkaynDaOgzHg9yCPBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwFzPf9tXwx4AAAAAAD7d18OcOXCWVWt+1hIBAH5infD1M3cgAMeoyWFL2zM6Pt7kwADQLl5fOzm/epWzVL4wdjhJKnap3V6uYqWaLYy5rqQ+D5/qbmtzdysvAL/DybkE/zsxBkjlQLnjck7NXWbkg1f/z+VvqTn02nwwfH1anQKw3qnPVXOW53EPxvyGPOo1z8jZ4r5aansr+/XI+H3HdjaaC+52xzqGVtbQfrTWQ2t9zR7zThknP4Gci5K4TexqI6e2xdKzIve7rdpj72DVeHzX+litp75r6i513nfXeW497GSpGGVGPFRaB6zpJ7VlurqW0Gj/bPnc6fcdONeJ8253kHrm7Nbz/e8uc0lcntPKVyvVh3bWeRgTneAZ7D9xXMldc+9v1EKl43f38Z5nx4r2kCtDaexr/W1g7v2R+h4dI1blg7vuUXj9O9cE3xXz1OaquTZxVU8v4jpi1vzua+fYSF4ufjs1v7qTVB2W1tJ7539b9cxVvyMfLOUc7/J6noRW5aqnjYVhXFs6prVN7xxnatdQWuRi1ZlOaws1ZtzTVfngivY26x6tiotGcvLZ7a83HxQvAiVx/HE3J+deO8bcU699VHxfw/mpu0g9e3flrDVl2umd927WGJeLt67u3an9s/VaSnMz8TmvvrP271G59ZERYTvo+Uzuc7n67TU7H/yK9q/Xo79LkZv8SNXj1bwov0sY59jbj+xL8eaqZ2xtnFsbA+fea3nmjJSlp8w95UjVYc3WWoZeO+qw5j7X1uHq69qtt33EdTFyntnbaVrvc+n9d7SRXXL99OUZvS7d6/j91N8z5dpfaQwJx9nSOeLvGG0Ds9vQ7Hr9ivaj56p9jt9tbOl9ZrQ8I2e4ikkAAE40MufQEuv0zAnkPrNzDmL2uUvX9Ei8Hs0HU8f+SWzfF///Ll/WMVbNO6Xi+5a+MKMN9Z6jtg+fmLtclXllv07VR6ner87Dfn8BvOcHmQ==
+  </data>
+ </layer>
+ <objectgroup name="followEnemy" width="900" height="30" visible="0">
+  <object name="followEnemySpawn" x="104" y="1600" width="60" height="60"/>
+ </objectgroup>
+ <objectgroup name="normalEnemy" width="900" height="30" visible="0">
+  <object name="normalEnemySpawn" x="608" y="1644" width="64" height="52"/>
+  <object name="normalEnemySpawn" x="1132" y="1604" width="56" height="52"/>
+  <object name="normalEnemySpawn" x="2360" y="1516" width="60" height="52"/>
+  <object name="normalEnemySpawn" x="3864" y="1128" width="80" height="60"/>
+  <object name="normalEnemySpawn" x="6440" y="1228" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="8322" y="1356" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="10470" y="1332" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="13958" y="1676" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="17418" y="1616" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="20270" y="1672" width="68" height="64"/>
+  <object name="normalEnemySpawn" x="23086" y="1656" width="68" height="64"/>
+ </objectgroup>
+ <objectgroup name="attackEnemy" width="900" height="30" visible="0">
+  <object name="attackEnemySpawn" x="1700" y="1732" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="2680" y="1482" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="1064" y="1734" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="2068" y="1606" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="2804" y="1738" width="56" height="60"/>
+  <object name="attackEnemySpawn" x="3360" y="1346" width="56" height="60"/>
+ </objectgroup>
+ <layer name="Coin" width="900" height="30">
+  <properties>
+   <property name="Collectable" value="True"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt2bEJADAIBEA79984CxiwSEDhDn6D/0YjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeCmLAAAAAGzgngEAwGbVn+53YKpbVzv9tQ8AAAAAAAAAAACmOmOxAbM=
+  </data>
+ </layer>
+</map>
